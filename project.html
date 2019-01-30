@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html>
  <head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  </head>
   <body>
    <div class="wrapper">
-     <header>
-        <nav class= "section-navbar">
-          <div class="container">
-    <!-- Logo -->
-      <div class="navbar-logo">
-        <a href="index.html">
-          <img src="images/logo black.svg" alt="VR logo">
-        </a>
-      </div>
-       <!--Navigation Tools -->
-        <div class="tool-bar">
-           <ul>
-             <li>
-               <a href="about-link" class="item">About</a>
-             </li>
-             <li>
-               <a href="home-page" class="item">Projects</a>
-             </li>
-             <li>
-               <a href="contact-link" class="item">Contact</a>
-             </li>
+     <header class="header">
+      <div class="navbar">
+       <a href="index.html">
+        <img src="images/logo black.svg" alt="VR logo">
+       </a>
+     <!--Navigation Tools -->
+       <nav class= "section-navbar">
+         <ul>
+           <li>
+             <a href="about-link" class="item">About</a>
+           </li>
+           <li>
+             <a href="home-page" class="item">Projects</a>
+           </li>
+           <li>
+             <a href="contact-link" class="item">Contact</a>
+           </li>
            </ul>
-        </div>
-          </div>
-        </nav>
+         </nav>
+       </div>
       </header>
       <!-- Intro -->
-    <div class="intro-color intro-raindrops intro-text">
+    <div class="intro-black intro-raindrops intro-text">
       <div class="intro-content">
-        <div class="inner-intro">
+        <div class="intro-inner">
           <img src="images/logo 2.jpg" alt="RainDrops logo">
             <h2> Collect, Connect, and
               <br>
@@ -44,14 +42,17 @@
                 <br>
                 collect, connect, and collaborate with the content they enjoy.
               </p>
+              <br>
+              <a href="" class="">View Prototype</a>
+              <br>
             <div class="intro-image">
-              <img src="images/raindrops.jpg" alt="laptop skin">
+              <img src="images/skin.jpg" alt="laptop skin">
             </div>
          </div>
        </div>
      </div>
      <!-- Start of Case Study -->
-     <div class="main">
+     <div class="main section-grey">
        <section class="colums">
          <div class="case">
            <div class="sections">
@@ -131,7 +132,7 @@
          </div>
        </div>
      </section>
-     <section class="problem-solution-challenge">
+     <section class="problem-solution-challenge section-grey">
        <div class="shell">
          <div class="inner-section">
            <div class="content-section">
@@ -139,7 +140,7 @@
                <i class="caution"></i>
                <h4 class="section-subtitle">Problem</h4>
              </header>
-             <div class="section-body-problem">
+             <div class="section-body">
                <p>
                  Many of the cloud storage applications today often specialize
                  in certain features and lack in others. The result is
@@ -154,7 +155,7 @@
               <i class="puzzle"></i>
               <h4 class="section-subtitle">Solution</h4>
             </header>
-            <div class="section-body-solution">
+            <div class="section-body">
               <p>
                 Through extensive research, user testing, and a simplistic design
                 approach, I developed Raindrops. A cloud storage application
@@ -168,7 +169,7 @@
               <i class="challenges"></i>
               <h4 class="section-subtitle">Challenges</h4>
             </header>
-            <div class="section-body-challenges">
+            <div class="section-body">
               <b><i>Don't over think it
               </b></i>
               <br>
@@ -203,7 +204,7 @@
           <i class="magnify-glass"></i>
           <h4 class="section-subtitle">User Research</h4>
         </header>
-        <div class="section-body-user-research">
+        <div class="section-body">
           <p>
           I created a 20 question user survey to better understand the users
           needs in a cloud storage application but also their frustations when
@@ -214,49 +215,436 @@
      </div>
    </section>
    <section class="survey-section">
-     <div class="section-body-survey" style="background-image: url("images/coffee.jpg");">
+     <div class="survey-section-body" style="background-image: url(../images/coffee.png);">
+       <div class="survey-content">
+         <p>
+           <strong>85.7%</strong>
+           <br>
+           <b> Of respondents said uploading content such as links, images, and
+              files from a computer or mobile device was most important to them.
+           </b>
+         </p>
+         <p>
+           <strong>79. 5%</strong>
+           <br>
+           <b> Of respondents prefer to use a desktop platform
+               over a mobile platform.
+           </b>
+         </p>
+         <p>
+           <strong>64%</strong>
+           <br>
+           <b> Of respondents want to see an updated design
+               within their application.
+          </b>
+         </p>
+         <p>
+           <strong>85%</strong>
+           <br>
+         <b> Of respondents were frustrated with the collaborative –
+           sharing efficiency within their current cloud storage application.
+         </b>
+       </p>
      </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   </div>
+ </section>
+ <div class="profile-personas">
+   <header class="section-subheaders">
+     <i class="pepole"></i>
+     <h4 class="section-subtitle">User Personas</h4>
+   </header>
+   <div class="section-body">
+     <p>
+       After gathering this valuable information I interviewed three users with
+       truly different backgrounds regarding their motivations, frustrations,
+       and goals around cloud storage applications.
+     </p>
+   </div>
+ </div>
+   <div class="profiles">
+     <div class="profile">
+       <div class="profile-avatar">
+         <img src="Stepanie.Vizcarra" alt>
+       </div>
+       <div class="profile-heading">
+         <h5 class="profile-name">Stephanie</h5>
+         <p  class="profile-position">School Counselor</p>
+         <p> 28 / Riverside,CA / Female </p>
+       </div>
+       <div class="profile-body">
+         <h6>Goals</h6>
+         <p>
+           A storage application that allows me to access powerpoint and excel.
+           <br>
+           Having the tools to collaborate on projects and presentations with
+           staff members and students.
+           <br>
+           Easy uploading and downloading of content in one central location.
+         </p>
+         <h6>Frustrations</h6>
+         <p>
+           Some applications can get rather expensive after their free storage.
+           <br>
+           Using different applications for different tasks.
+           <br>
+           Difficult to use real-live editing through other applications.
+         </p>
+       </div>
      </div>
-   </body>
-  </html>
+     <div class="profile">
+       <div class="profile-avatar">
+         <img src="Francisco Benitez" alt>
+       </div>
+       <div class="profile-heading">
+         <h5 class="profile-name"> Francisco</h5>
+         <p class="profile-position">Behavior Analyst</p>
+         <p> 29 / Torrance, CA / Male </p>
+       </div>
+       <div class="profile-body">
+         <h6>Goals</h6>
+         <p>
+           An application that allows me to collect content and notes from my
+           clients when in the field.
+           <br>
+           An application that allows me to create, edit, and share a
+           custom video I have made.
+           <br>
+         </p>
+         <h6>Frustrations</h6>
+         <p>
+           I tend to find myself using mulitple storage applications since
+           some offer certain features that others do not.
+         </p>
+       </div>
+     </div>
+     <div class="profile">
+       <div class="profile-avatar">
+         <img src="Veronica Brenner" alt>
+       </div>
+       <div class="profile-heading">
+         <h5 class="profile-name">Veronica</h5>
+         <p class="profile-position">Business Development Manager</p>
+         <p> 30 / El Segundo, CA / Female </p>
+       </div>
+       <div class="profile-body">
+         <h6>Goals</h6>
+         <p>
+           Live on the go conferencing and collaboration.
+           <br>
+           An updated design and interface .
+           <br>
+           Upload, share, and save content all in one location.
+           <br>
+         </p>
+         <h6>Frustrations</h6>
+         <p>
+           Third party applications not present in most cloud applications.
+           <br>
+           The lack of file versioning.
+           <br>
+         </p>
+       </div>
+     </div>
+   </div>
+     <div class="conclusion intro-black">
+       <p> <b>
+         Based on these key surveys and personas I narrowed down the project
+         objectives to create an application that conveniently allows users to
+         upload content from the web to their application, create an effective
+         yet efficient way to collaborate over the application, an updated
+         interface and design should be implemented for convenience and simple
+         use, and focusing on accessibility from any Desktop.
+       </p></b>
+     </div>
+   </div>
+   <div class="competitive-analysis">
+     <div class="competitive-analysis-body">
+       <div class="competitive-analysis-content">
+         <header class="section-subheaders">
+           <i class="map"></i>
+           <h4 class="section-subtitle">Competitive Analysis</h4>
+           </header>
+           <div class="side-images-section">
+             <div class="side-images">
+               <img src="googledrive" alt>
+               <br>
+               <img src="dropbox" alt>
+               <br>
+               <img src="onedrive" alt>
+             </div>
+           </div>
+           <div class="section-content">
+             <header class="section-head">
+               <p class="section-sentence">Learning from your competitors....</p>
+             </header>
+             <div class="section-body">
+               <p>
+                 Although these are among the top players in the market, there
+                 are a few weaknesses that have been brought to light and could
+                 definitely be improved on. GoogleDrive is great with a generous
+                 amout of storage and a great brand to support it. However from
+                 my research many users wish it’s interface was more user
+                 friendly. DropBox, another powerful brand, has an awesome easy
+                 to use interface along with a fast uploading speeds, however
+                 the pricing after your free 5 GB can get pricey very quickly.
+                 OneDrive also has a simplistic interface and pretty cost
+                 effecient. However if one does not know how to take advantage
+                 of Microsoft 360 or a Microsoft user it defeats the purpose.
+               </p>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <section class="information section-grey">
+       <div class="information-body">
+         <header class="section-headers">
+           <i class="netowrk"></i>
+           <h3 class="section-title">Information Architecture</h3>
+           <div class="section-body">
+             <p>
+               With additional information and a deeper understanding of our
+               users I created these simple user stories and converted them
+               into flows to visualize how our users will interact with
+               features, processes, and goals of the application.
+             </p>
+           </div>
+           <i class="flows"></i>
+           <h4 class="section-subtitle">User Stories & Flows</h4>
+         </header>
+        <!-- User Stories & Flows -->
+        <div class="stories-flows-image">
+          <img src="images/flows.jpg" alt>
+        </div>
+      </div>
+    </section>
+    <section class="branding">
+      <div class="branding-body">
+        <header class="section-headers">
+          <i class="paper-pencil"></i>
+          <h3 class="section-title">Branding & Identity</h3>
+          <div class="section-body">
+          <p>
+            I conducting some brainstorming activities around what name and
+            color palette would represent a new cloud storage application
+            trying to penetrate the market. In doing so I came away with the
+            name RainDrops. Raindrops represents what a cloud represents to
+            planet earth. A storage application containing important files,
+            folders, and tools, such as a cloud containing the crucial elements
+            for earth, water.
+          </p>
+        </div>
+        </header>
+        <div class="section-content">
+          <ul class="brand-images">
+            <li>
+              <img src="images/brand-logo.jpg" alt>
+            </li>
+            <li>
+              <img src="images/color.jpg" alt>
+            </li>
+            <li>
+              <img src="images/scada.jpg" alt>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="wireframing intro-black">
+      <div class="wireframe-body">
+        <header class="section-subheaders">
+          <i class="prototype"></i>
+          <h4 class="section-subtitle">Wireframes</h4>
+          <div class="section-body">
+            <p>
+              After all the research and branding was completed it was time to
+              mock up the low fidelity prototypes and wireframes. When creating
+              these wireframes I knew I wanted to create something very
+              simplistic and easy to use. There were many instances where I
+              tried adding countless features trying to recreating the wheel,
+              and we all know that hardly ever works. I went back to my findings
+              and kept the minimal viable product (MVP) in mind and went to work.
+            </p>
+          </div>
+        </header>
+      </div>
+    </section>
+    <section class="prototypes">
+      <div class="prototypes-body">
+        <div class="prototype-content">
+          <div class="protoype-image">
+            <img src="images/wireframes.jpg" alt>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="interactive-visual-design section-grey">
+      <div class="shell">
+        <header class="section-headers">
+          <i class="pencils"></i>
+          <h3 class="section-title">Interative and Visual Design</h3>
+          <i class="computer-screen"></i>
+          <h4 class="section-subtitle">Hi-Fidelity Mockups</h4>
+        </header>
+        <div class="section-body">
+          <p>
+          The high-fedlity mockups were ready to be created, deployed, and tested.
+         </p>
+       </div>
+    <div class="hifi-images-section">
+     <div class="side-images">
+       <img src="images/desktop-tile.jpg" alt>
+     </div>
+     <div class="section-body">
+       <h4 class="section-subtitle">Icon Dashboard</h4>
+       <p>
+         The Raindrops dashboard gives the user options in how they would like
+         their page layout. Here is a smiple intuitive dashboard that uses icon
+         to represent what time of content the user is holding within the dashboard.
+       </p>
+     </div>
+    </div>
+    <div class="hifi-images-section">
+      <div class="side-images">
+       <img src="images/desktop5.jpg" alt>
+     </div>
+     <div class="section-body">
+       <h4 class="section-subtitle">List Dashboard</h4>
+       <p>
+         The list dashboard is a for users who prefer the description of their
+         files along with the last time they modified it, who they shared it
+         with and the size of the content. This also allows the user to view
+         more files on one screen.
+       </p>
+     </div>
+   </div>
+   <div class="hifi-images-section">
+     <div class="side-images">
+       <img src="images/macbook.jpg" alt>
+     </div>
+     <div class="section-body">
+       <h4 class="section-subtitle">Sign in page</h4>
+       <p>
+       The sign in page is a simple straight forward form that asks for First
+       and Last name, email, and a password. Users may also sign in with
+       their facebook account if they feel more comfortable with this alternative.
+       </p>
+     </div>
+   </div>
+ </div>
+</section>
+<section class="usability-testing">
+   <div class="usability-content">
+     <div class="shell">
+       <header class="section-subheaders">
+         <i class"people"></i>
+         <h4 class="section-subtitle">Usability & Preference Testing</h4>
+       </header>
+       <div class="inner-shell">
+         <div class="usability-content">
+           <p>
+             As I reached out to users via zoom video and in person testing,
+             I explained what the goal of this test was and for them to do
+             their best in walking  me through their thoughts, next moves,
+             and how each option/element  made them feel over-all.
+           </p>
+         </div>
+         <div class="inner-shell-images">
+           <img src="images/a-tile.jpg" alt>
+           <img src="images/b-tile.jpg" alt>
+           <p>
+             80% preferred the option B refinement saying it was well laid out
+             and added more depth to the application. Users appreciated the
+             drag and drop water mark that was centered in the screen notifying
+             them it was an option.
+           </p>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+ <section class="section-black conclusion">
+   <div class="conclusion-content">
+     <header class="section-subheaders">
+       <a href="" class="">View Prototype</a>
+       <br>
+       <i class="road"></i>
+       <h4 class="section-subtitle">Conclusion</h4>
+     </header>
+     <div class="section-sentence">
+       <p>What I’d do differently..</p>
+     </div>
+     <div class="section-body">
+       <p>
+       ALOT. Gathering the pivotal pieces for the solution and keeping tabs on
+       every important detail of the project was a challenge. I wish I could go
+       back and give each and every detail more thought and attention.
+       Creating consistent visuals was difficult as well as brainstorming the
+       brand and tangibles for the style guide.
+      </p>
+    </div>
+    <div class="section-sentence">
+      <p>What I learned..</p>
+    </div>
+    <div class="section-body">
+      <p>
+        This was my first UX project that I captained along with my mentor. I
+        learned so many things around the process and the methods used in
+        creating a product. I also learned that testing is your key to success.
+        Test early and often and you’ll learn so many things you thought you
+        already knew. Although this was a challenging project for me, I feel I
+        took away key components from the design process and my next project will
+        be a huge improvement from RainDrops.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="contact section">
+  <div class="container">
+    <div class="content">
+    <h2 class="contact title">Let’s Connect!</h2>
+    <p class="contact content">
+      Whether it’s to simply chat over coffee
+      or to create something awesome together.
+    </p>
+<!-- social media icons -->
+  <div class="socialicons">
+    <ul>
+      <li>
+        <a href="https://www.linkedin.com/in/vincentarodriguez/">
+         <i style="color:black" class="fa">&#xf0e1;</i>
+        </a>
+       </li>
+      <li>
+        <a href="https://www.instagram.com/var89/">
+        <i style="color:black" class="fa">&#xf16d;</i>
+        </a>
+      </li>
+      <li>
+        <a href="mailto:vincerodriguez13@gmail.com">
+        <i style="color:black" class="fa">&#xf003;</i>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/vince6">
+        <i style="color:black" class="fa">&#xf09b;</i>
+        </a>
+      </li>
+    </ul>
+  </div>
+<!-- Thank you message -->
+  <h3 class="ending">
+    Thank you for dropping in!
+  </h3>
+<!-- Copyright -->
+    <p class="copyright"> © 2019 Desgined & Developed with ❤️
+    by Vincent Rodriguez
+   </p>
+   </div>
+  </div>
+</footer>
+</div>
+</body>
+</html>
