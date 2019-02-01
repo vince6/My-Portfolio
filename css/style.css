@@ -1,1 +1,188 @@
+* {
+  box-sizing: border-box;
+}
 
+.wrapper{
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+body{
+  background-color: #000000;
+  color: #FFFFFF;
+}
+body#page1{
+  background-color: #1D1B1B;
+}
+
+.header {
+  font-family:'Open Sans', sans-serif;
+}
+.wrapper1{
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-navbar li {
+  display: inline;
+  margin-right: 50px;
+}
+.section-navbar ul {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  padding-top: 5%
+}
+
+.logo {
+  padding-left:60px;
+  padding-top: 30px;
+}
+
+
+/*** Typograpghy ***/
+
+h1 {
+  font-family:'Playfair Display', serif;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 2%;
+  line-height: normal;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.greeting {
+  font-weight: normal;
+}
+.welcome {
+  font-family:'Open Sans', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 25px;
+  line-height: normal;
+}
+.ending, .contact-title {
+  font-family:'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.process-heading {
+  font-family:'Playfair Display', serif;
+  font-size: 30px;
+}
+
+.contact-content{
+  text-align: center;
+}
+
+p {
+  font-family:'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+ul a {
+text-decoration: none;
+color:#FFFFFF;
+}
+
+a:hover {
+  color: #FFFFFF;
+  text-decoration: line-through;
+}
+
+/*** Hero Image ***/
+@-webkit-keyframes fadeIn {from {
+  opacity:0;} to { opacity:1;} }
+@-moz-keyframes fadeIn { from {
+  opacity:0} to { opacity:1; } }
+@keyframes fadeIn { from{ opacity:0;}
+to {opacity:1; } }
+
+.fade-in {
+opacity:0;
+ -webkit-animation:fadeIn ease-in 1;
+ -moz-animation:fadeIn ease-in 1;
+ animation:fadeIn ease-in 1;
+
+ -webkit-animation-fill-mode:forwards;
+ -moz-animation-fill-mode:forwards;
+ animation-fill-mode:forwards;
+
+ -webkit-animation-duration:1s;
+ -moz-animation-duration:1s;
+ animation-duration:1s;
+}
+
+.fade-in {
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+.laptop {
+  position: relative;
+  text-align: center;
+}
+
+.box p {
+  font-family:'Raleway', sans-serif;
+  font-size: 25px;
+  position: absolute;
+  bottom:22%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.box{
+  display: block;
+  width: 994px;
+  height: 494px;
+  position: relative;
+  margin:10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*** Process Center ***/
+
+#process{
+  text-align: center;
+  position: relative;
+}
+
+/*** Project Center ***/
+
+.content-case-study p {
+  text-align: right;
+}
+
+
+
+/*** Footer ***/
+
+.socialicons li {
+  display: inline;
+  margin-right: 50px;
+}
+
+.socialicons ul {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+}
+
+.copyright {
+  font-size: 14px;
+  text-align: center;
+}

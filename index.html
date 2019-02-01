@@ -6,25 +6,32 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display|Raleway" rel="stylesheet">
   </head>
   <body>
+    <div class="wrapper">
     <!-- Navigation Bar -->
     <header class="header">
      <div class="navbar">
+     <div class="logo">
       <a href="index.html">
-       <img src="images/logo black.svg" alt="VR logo">
+       <img src="images/logo.png" alt="VR logo" height="100" width="100"/>
       </a>
+     </div>
     <!--Navigation Tools -->
       <nav class= "section-navbar">
         <ul>
           <li>
-            <a href="about-link" class="item">About</a>
+            <a href="link" class="item">About</a>
           </li>
           <li>
-            <a href="home-page" class="item">Projects</a>
+            <a href="link" class="item">Projects</a>
           </li>
           <li>
-            <a href="contact-link" class="item">Contact</a>
+            <a href="link" class="item">Resume</a>
+          </li>
+          <li>
+            <a href="link" class="item">Contact</a>
           </li>
           </ul>
         </nav>
@@ -34,30 +41,41 @@
      <div class="hero section">
       <div class="container">
         <div class="lines">
-          <div class="greeting">
-        <h1 class="message">
-          Think Simple Design Simple
+        <div class="greeting">
+        <h1>
+          <b>Think Simple
+            <br>
+            Design Simple</b>
         </h1>
-        <h2 class="welcome">
+      </div>
+        <div class="welcome">
+        <h2 class="welcome-text">
          I’m Vincent, a gritty UXer from Orange County,
          <br>
          who keeps the user in mind to deliver simplistic clean design
         </h2>
-          </div>
+        </div>
     <!-- hero image -->
       <div class="laptop">
-        <img src="images/dark.jpg" alt="hero image"/>
-      </div>
+      <div class="box fade-in">
+        <img src="images/laptop.jpg" alt="hero image" width="994px"; height="494px";/>
+          <p>Explore</p>
+          <i class="fa fa-angle-down fa-3x" aria-hidden="true"></i>
+       </div>
+       </div>
         </div>
        </div>
       </div>
     <!-- bloc projects below -->
       <div class="section case-study">
         <div class="container raindrops">
-          <div class="content case study">
+          <div class="content-case-study">
         <h3 class="case-study-heading">RainDrops</h3>
-        <p>RainDrops is a cloud computing application that allows user to
-           collect, connect, and collaborate with the content they enjoy.</p>
+        <p>RainDrops is a cloud computing application
+          <br>
+          that allows user to collect, connect, and
+          <br>
+          collaborate with the content they enjoy.</p>
           </div>
         </div>
       </div>
@@ -70,7 +88,7 @@
         </h2>
           </div>
         <div id="process">
-         <img src="images/process.jpg" alt="ux process"/>
+         <img src="images/process.png" alt="ux process" height="720" width="925"/>
         </div>
        </div>
       </div>
@@ -78,40 +96,45 @@
     <footer class="contact section">
       <div class="container">
         <div class="content">
-        <h2 class="contact title">Let’s Connect!</h2>
-        <p class="contact content">
+        <div class="contact-title">
+          <h6>Let’s Connect!</h6>
+        </div>
+        <div class="contact-content">
+          <p>
           Whether it’s to simply chat over coffee
+          <br>
           or to create something awesome together.
         </p>
+      </div>
     <!-- social media icons -->
       <div class="socialicons">
         <ul>
           <li>
             <a href="https://www.linkedin.com/in/vincentarodriguez/">
-             <i style="color:black" class="fa">&#xf0e1;</i>
+             <i style="color:white" class="fa">&#xf0e1;</i>
             </a>
            </li>
           <li>
             <a href="https://www.instagram.com/var89/">
-            <i style="color:black" class="fa">&#xf16d;</i>
+            <i style="color:white" class="fa">&#xf16d;</i>
             </a>
           </li>
           <li>
             <a href="mailto:vincerodriguez13@gmail.com">
-            <i style="color:black" class="fa">&#xf003;</i>
+            <i style="color:white" class="fa">&#xf003;</i>
             </a>
           </li>
           <li>
             <a href="https://github.com/vince6">
-            <i style="color:black" class="fa">&#xf09b;</i>
+            <i style="color:white" class="fa">&#xf09b;</i>
             </a>
           </li>
         </ul>
       </div>
     <!-- Thank you message -->
-      <h3 class="ending">
-        Thank you for dropping in!
-      </h3>
+      <h6 class="ending">
+      Thank you for dropping in!
+     </h6>
     <!-- Copyright -->
         <p class="copyright"> © 2019 Desgined & Developed with ❤️
         by Vincent Rodriguez
@@ -119,5 +142,6 @@
       </div>
      </div>
    </footer>
-  </body>
+  </div>
+ </body>
 </html>
