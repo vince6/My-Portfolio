@@ -268,19 +268,19 @@ hr {
 .socialicons li {
   display: inline;
   margin-right: 50px;
-  width: 25px;
-  height: 18px;
 }
 
 .socialicons ul {
   text-align: center;
-  width: 100%;
-  position: absolute;
-  bottom:90;
-  padding-top: 5%
+  position: relative;
 }
 
+.ending {
+  padding-bottom:50px;
+  margin-top: -5px;
+}
 .copyright {
+  padding-bottom: 10px;
   font-size: 14px;
   text-align: center;
 }
