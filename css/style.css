@@ -42,6 +42,11 @@ body#page1{
   padding-top: 20px;
 }
 
+.charlogo {
+  padding-left:60px;
+  padding-top: 20px;
+}
+
 
 /*** Typograpghy ***/
 
@@ -57,10 +62,6 @@ h2 {
   text-align: center;
 }
 
-.aboutme-title h1 {
-  text-align: left;
-  padding-left: 20px;
-}
 
 .greeting {
   font-weight: normal;
@@ -105,6 +106,60 @@ font-size: 14px;
   color: #FFFFFF;
   text-decoration: underline;
 }
+
+/*** About Me ***/
+
+.about-me .aboutme-section {
+    max-width: 700px;
+    margin-top: 70px;
+    padding-left: 60px;
+    margin-left: 0;
+    margin-right: 0;
+    line-height: normal;
+}
+
+.aboutme-inner {
+  display: block;
+}
+
+
+
+.aboutme-section h1 {
+    text-align: left;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-top: 10px;
+  }
+
+.aboutme-section p {
+  text-align: left;
+  letter-spacing: normal;
+  max-width: 550px;
+  padding-left: 40px;
+
+}
+
+.aboutme-section b {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contact-me {
+  padding-left: 40px;
+}
+
+.about-me-pic {
+    left:50%;
+    position:relative;
+    max-width: 550px;
+}
+
+.about-me-pic {
+  max-width: 550px;
+}
+
+
 
 /*** Hero Image ***/
 @-webkit-keyframes fadeIn {from {
@@ -224,6 +279,7 @@ opacity:0;
     margin-top: 20px;
     -webkit-appearance: none;
 }
+
 
 
 /*** Process Center ***/
