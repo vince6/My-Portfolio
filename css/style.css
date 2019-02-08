@@ -43,7 +43,7 @@ body#page1{
 }
 
 .charlogo {
-  padding-left:60px;
+  padding-left: 60px;
   padding-top: 20px;
 }
 
@@ -109,34 +109,25 @@ font-size: 14px;
 
 /*** About Me ***/
 
-.about-me .aboutme-section {
-    max-width: 700px;
-    margin-top: 70px;
-    padding-left: 60px;
-    margin-left: 0;
-    margin-right: 0;
-    line-height: normal;
+.about-me {
+    min-height: 100vh;
+    display: flex;
+    width: 1300px;
 }
 
-.aboutme-inner {
-  display: block;
+.aboutme-section {
+  width:700px;
+  font-weight: 100;
+  padding-left: 95px;
+  line-height: normal;
 }
 
 
 
 .aboutme-section h1 {
-    text-align: left;
-    padding-bottom: 20px;
-    padding-left: 40px;
-    padding-top: 10px;
-  }
-
-.aboutme-section p {
   text-align: left;
-  letter-spacing: normal;
-  max-width: 550px;
-  padding-left: 40px;
-
+  padding-bottom:20px;
+  padding-top: 10px;
 }
 
 .aboutme-section b {
@@ -145,18 +136,24 @@ font-size: 14px;
   font-weight: bold;
 }
 
-.contact-me {
-  padding-left: 40px;
+.about-me-pic img {
+  width:500px;
+  height: 400px;
 }
 
 .about-me-pic {
-    left:50%;
-    position:relative;
-    max-width: 550px;
+position: absolute;
+  top:33%;
+  left: 58%;
 }
 
-.about-me-pic {
-  max-width: 550px;
+.interest p {
+  padding-top: 5px;
+  width:500px;
+  font-size: 16px;
+  font-weight: 100;
+  text-align: left;
+  line-height: normal;
 }
 
 
@@ -364,7 +361,7 @@ padding-bottom: 20px;
   margin-top: -5px;
 }
 .copyright {
-  padding-bottom: 10px;
+  padding-top: 20px;
   font-size: 14px;
   text-align: center;
 }
