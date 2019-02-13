@@ -11,24 +11,24 @@
   <body>
    <div class="wrapper2">
      <header class="header">
-      <div class="navbar">
+      <div class="navbar navbar2">
        <a href="index.html">
-        <img src="images/logo.png" alt="VR logo ">
+        <img src="images/charlogo.png" alt="VR logo" height="120" width="120"/>
        </a>
      <!--Navigation Tools -->
        <nav class= "section-navbar">
          <ul>
            <li>
-             <a href="about-link" class="item">About</a>
+             <a href="http://127.0.0.1:3000/aboutme.html" class="item">About</a>
            </li>
            <li>
-             <a href="home-page" class="item">Projects</a>
+             <a href="index.html" class="item">Projects</a>
            </li>
            <li>
-             <a href="contact-link" class="item">Resume</a>
+             <a href="resume/myresume.pdf" class="item">Resume</a>
            </li>
            <li>
-             <a href="resume-link" class="item">Contact</a>
+             <a href="#contacts" class="item">Contact</a>
            </ul>
          </nav>
        </div>
@@ -37,7 +37,7 @@
     <div class="intro-black intro-raindrops intro-text">
       <div class="intro-content">
         <div class="intro-inner">
-          <img src="images/logo2.jpg" alt="RainDrops logo">
+          <img src="icons/raindropsheading.png" class="raindropheadline" alt="rainDropslogo" width="280" height="100" >
             <h2> Collect, Connect, and
               <br>
                 Collaborate
@@ -48,10 +48,10 @@
                 collect, connect, and collaborate with the content they enjoy.
               </p>
               <br>
-              <a href="" class="">View Prototype</a>
+              <a href="" class="btn prototypebtn btn-blue">View Prototype</a>
               <br>
             <div class="intro-image">
-              <img src="images/skin.jpg" alt="laptop skin">
+              <img src="icons/biglaptop.png" class="biglaptop" alt="laptop skin" width="894" height="494"/>
             </div>
          </div>
        </div>
@@ -61,12 +61,12 @@
        <section class="colums">
          <div class="case">
            <div class="sections">
-             <div class="section-text">
+             <div class="section-text first-section">
                <div class="section-image">
-                 <i class="role"></i>
+                 <img src="icons/role.png" class="role" alt="roleicon" width="70" height="70">
                </div>
                <h5 class="section-titles">
-                 Roles
+                 My Roles
                </h5>
               <ul>
                 <li>UX Research</li>
@@ -75,14 +75,39 @@
                 <li>Branding</li>
               </ul>
              </div>
-            <div class="section-two-text">
+            <div class="section-text mid-section">
               <div class="section-two-image">
-                <i class="deliverables"></i>
-              </div>
+                <img src="icons/idea.png" class="idea" alt="ideaicon" width="70" height="70">
+                </div>
+                <h5 class="section-titles">
+                  Components
+                </h5>
+              <ul>
+                <li>
+                  <p>Duration</p>
+                </li>
+                <li>7 Weeks</li>
+               </ul>
+               <ul>
+                <li>
+                  <p>Tools</p>
+                </li>
+                <li>Figma</li>
+                <li>Sketch</li>
+                <li>Adobe CC</li>
+                <li>Invision</li>
+                <li>myBalsamiq</li>
+                <li>Draw.io</li>
+               </ul>
+             </div>
+            <div class="section-text third-section" >
+            <div class="section-image">
+              <img src="icons/web-design.png" class="deliverables" alt="deliverablesicon" width="70" height="70">
+            </div>
               <h5 class="section-titles">
-                Deliverables
+              Deliverables
               </h5>
-             <ul>
+              <ul>
               <li>User Surveys</li>
               <li>User Personas</li>
               <li>User Flows & Stories</li>
@@ -91,37 +116,13 @@
               <li>Mockups</li>
               <li>Prototypes</li>
               <li>User Testing</li>
-            </ul>
-           </div>
-          <div class="section-text">
-            <div class="section-image">
-              <i class="components"></i>
+              </ul>
             </div>
-            <h5 class="section-titles">
-              Components
-            </h5>
-          <ul>
-            <li>
-              <strong>Duration</strong>
-            </li>
-            <li>7 Weeks</li>
-           </ul>
-           <ul>
-            <li>
-              <strong>Tools</strong>
-            </li>
-            <li>Figma</li>
-            <li>Sketch</li>
-            <li>Adobe CC</li>
-            <li>Invision</li>
-            <li>myBalsamiq</li>
-            <li>Draw.io</li>
-           </ul>
           </div>
         </div>
         <div class="summary-section">
           <header class="section-headers">
-            <i class="books"></i>
+            <img src="icons/books.png" class="books" alt="summary" width="70" height="70">
             <h3 class="section-title">Summary</h3>
           </header>
           <div class="section-body">
@@ -142,7 +143,7 @@
          <div class="inner-section">
            <div class="content-section">
              <header class="section-subheaders">
-               <i class="caution"></i>
+               <img src="icons/warningsign.png" class="caution" alt="problem" width="70" height="70">
                <h4 class="section-subtitle">Problem</h4>
              </header>
              <div class="section-body">
@@ -157,7 +158,7 @@
            </div>
            <div class="content-section">
             <header class="section-subheaders">
-              <i class="puzzle"></i>
+              <img  src="icons/jigsaw.png" class="puzzle" alt="solution" width="70" height="70">
               <h4 class="section-subtitle">Solution</h4>
             </header>
             <div class="section-body">
@@ -169,42 +170,58 @@
               </p>
             </div>
           </div>
-          <div class="content-section">
+          <div class="challenge-section">
             <header class="section-subheaders">
-              <i class="challenges"></i>
+              <img src="icons/sign.png" class="challenges" alt="twowaysign" width="70" height="70">
               <h4 class="section-subtitle">Challenges</h4>
             </header>
-            <div class="section-body">
-              <i><b>Don't over think it</b></i>
-              <br>
-              <p>The platform must solve a problem, yet create efficiency for
+            <div class="three-section">
+              <ul>
+            <li>
+              <p>
+                <i>Don't over think it</i>
+                <br>
+                <br>
+                The platform must solve a problem, yet create efficiency for
                 the user. Think simple, design simple.
               </p>
-              <i><b>Time Constraints</b></i>
-              <br>
-              <p>I had a project deadline and a full time job that required 10
-                hours of my daily attention. So time management was a constant
-                challenge.
-              </p>
-              <i><b>Research Delay</b></i>
-              <br>
+            </li>
+            <li>
               <p>
+                <i>Research Delay</i>
+                <br>
+                <br>
                 The completion of certain user surveys and other research
                 material fell behind schedule. This allowed me to utilize
                 different deployment strategies.
               </p>
+            </li>
+              <li>
+              <p>
+                <i>Time Constraints</i>
+                <br>
+                <br>
+                With a project deadline and many product details that required
+                reiteration, it's safe to say time management was a constant challenge.
+              </p>
+            </li>
+          </ul>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="research-discovery">
+    <section class="research-discovery alt--white">
       <div class="shell">
+        <div class="discovery">
         <header class="section-headers">
-          <i class="telescope"></i>
+          <img src="icons/telescope.png" class="telescope" alt=discovery width="70" height="70">
           <h3 class="section-title">Research & Discovery</h3>
-          <i class="magnify-glass"></i>
+          <div class="magnify">
+          <img src="icons/research.png" class="magnify-glass" alt=researchbased width="70" height="70" >
           <h4 class="section-subtitle">User Research</h4>
+        </div>
+        </div>
         </header>
         <div class="section-body">
           <p>
@@ -219,6 +236,8 @@
    <section class="survey-section">
      <div class="survey-section-body" style="background-image: url(../images/coffee.png);">
        <div class="survey-content">
+         <ul>
+           <li>
          <p>
            <strong>85.7%</strong>
            <br>
@@ -226,6 +245,8 @@
               files from a computer or mobile device was most important to them.
            </b>
          </p>
+       </li>
+       <li>
          <p>
            <strong>79. 5%</strong>
            <br>
@@ -233,6 +254,8 @@
                over a mobile platform.
            </b>
          </p>
+       </li>
+       <li>
          <p>
            <strong>64%</strong>
            <br>
@@ -240,6 +263,8 @@
                within their application.
           </b>
          </p>
+       </li>
+       <li>
          <p>
            <strong>85%</strong>
            <br>
@@ -247,12 +272,14 @@
            sharing efficiency within their current cloud storage application.
          </b>
        </p>
+     </li>
+   </ul>
      </div>
    </div>
  </section>
- <div class="profile-personas">
+ <div class="profile-personas alt--white">
    <header class="section-subheaders">
-     <i class="pepole"></i>
+     <img src="icons/team.png" class="pepole" alt="team" height="70" width="70">
      <h4 class="section-subtitle">User Personas</h4>
    </header>
    <div class="section-body">
@@ -263,10 +290,10 @@
      </p>
    </div>
  </div>
-   <div class="profiles">
+   <div class="profiles alt--white">
      <div class="profile">
        <div class="profile-avatar">
-         <img src="Stepanie.Vizcarra" alt>
+         <img src="icons/stephpersona2x.png" alt="steph" height="130" width="130">
        </div>
        <div class="profile-heading">
          <h5 class="profile-name">Stephanie</h5>
@@ -278,24 +305,28 @@
          <p>
            A storage application that allows me to access powerpoint and excel.
            <br>
+           <br>
            Having the tools to collaborate on projects and presentations with
            staff members and students.
            <br>
+           <br>
            Easy uploading and downloading of content in one central location.
          </p>
-         <h6>Frustrations</h6>
+           <h6>Frustrations</h6>
          <p>
            Some applications can get rather expensive after their free storage.
            <br>
+           <br>
            Using different applications for different tasks.
+           <br>
            <br>
            Difficult to use real-live editing through other applications.
          </p>
        </div>
      </div>
-     <div class="profile">
+     <div class="profile" "francisco">
        <div class="profile-avatar">
-         <img src="franciscobenitez" alt>
+         <img src="icons/franciscopersona2x.png" alt="francisco" height="130" width="130">
        </div>
        <div class="profile-heading">
          <h5 class="profile-name"> Francisco</h5>
@@ -308,8 +339,10 @@
            An application that allows me to collect content and notes from my
            clients when in the field.
            <br>
+           <br>
            An application that allows me to create, edit, and share a
            custom video I have made.
+           <br>
            <br>
          </p>
          <h6>Frustrations</h6>
@@ -321,11 +354,11 @@
      </div>
      <div class="profile">
        <div class="profile-avatar">
-         <img src="veronicabrenner" alt>
+         <img src="icons/veronicapersona2x.png" alt="veronica" height="130" width="130">
        </div>
        <div class="profile-heading">
          <h5 class="profile-name">Veronica</h5>
-         <p class="profile-position">Business Development Manager</p>
+         <p class="profile-position">Business Development</p>
          <p> 30 / El Segundo, CA / Female </p>
        </div>
        <div class="profile-body">
@@ -333,16 +366,21 @@
          <p>
            Live on the go conferencing and collaboration.
            <br>
+           <br>
            An updated design and interface .
            <br>
+           <br>
            Upload, share, and save content all in one location.
+           <br>
            <br>
          </p>
          <h6>Frustrations</h6>
          <p>
            Third party applications not present in most cloud applications.
            <br>
+           <br>
            The lack of file versioning.
+           <br>
            <br>
          </p>
        </div>
@@ -351,38 +389,38 @@
      <div class="conclusion intro-black">
        <p>
        <b>
-         Based on these key surveys and personas I narrowed down the project
-         objectives to create an application that conveniently allows users to
-         upload content from the web to their application, create an effective
-         yet efficient way to collaborate over the application, an updated
-         interface and design should be implemented for convenience and simple
-         use, and focusing on accessibility from any Desktop.
+         Based on these key surveys and personas, I narrowed down the project
+         objectives to create an application that conveniently allowed users to
+         upload content from the web, create an effective
+         yet efficient way to collaborate, an updated
+         interface for convenience and simple use, and an accessibility a focus
+         from any Desktop.
        </b>
        </p>
      </div>
    </div>
-   <div class="competitive-analysis">
+   <div class="competitive-analysis alt--white">
      <div class="competitive-analysis-body">
        <div class="competitive-analysis-content">
          <header class="section-subheaders">
-           <i class="map"></i>
+           <img src="icons/strategy.png" class="map" alt="competitive" height="70" width="70">
            <h4 class="section-subtitle">Competitive Analysis</h4>
            </header>
            <div class="side-images-section">
              <div class="side-images">
-               <img src="googledrive" alt>
+               <img src="icons/image 8 x2.png" alt="google" height="150" width="190">
                <br>
-               <img src="dropbox" alt>
+               <img src="icons/image 8.1.png" alt="dropbox" height="107" width="300">
                <br>
-               <img src="onedrive" alt>
-             </div>
+               <img src="icons/image 9.png" alt="onedrive" height="150" width="190">
            </div>
+         </div>
            <div class="section-content">
-             <header class="section-head">
+             <div class="competitve-section">
                <p class="section-sentence">Learning from your competitors....</p>
-             </header>
-             <div class="section-body">
-               <p>
+               <br>
+               <br>
+               <p class="competitve-text">
                  Although these are among the top players in the market, there
                  are a few weaknesses that have been brought to light and could
                  definitely be improved on. GoogleDrive is great with a generous
@@ -403,7 +441,7 @@
      <section class="information section-grey">
        <div class="information-body">
          <header class="section-headers">
-           <i class="netowrk"></i>
+           <img src="icons/networking.png"class="netowrk" height="80" width="80">
            <h3 class="section-title">Information Architecture</h3>
            <div class="section-body">
              <p>
@@ -413,19 +451,21 @@
                features, processes, and goals of the application.
              </p>
            </div>
-           <i class="flows"></i>
+           <div class="book">
+           <img src="icons/flows-icon.png" alt="book" height="80" width="80">
            <h4 class="section-subtitle">User Stories & Flows</h4>
+         </div>
          </header>
         <!-- User Stories & Flows -->
         <div class="stories-flows-image">
-          <img src="images/flows.jpg" alt>
+          <img src="images/flows.png" class="flows" alt="flows" width="1186.25">
         </div>
       </div>
     </section>
-    <section class="branding">
+    <section class="branding alt--white">
       <div class="branding-body">
         <header class="section-headers">
-          <i class="paper-pencil"></i>
+          <img src="icons/passport.png"class="paper-pencil" height="70" width="70">
           <h3 class="section-title">Branding & Identity</h3>
           <div class="section-body">
           <p>
@@ -440,24 +480,14 @@
         </div>
         </header>
         <div class="section-content">
-          <ul class="brand-images">
-            <li>
-              <img src="images/brand-logo.jpg" alt>
-            </li>
-            <li>
-              <img src="images/color.jpg" alt>
-            </li>
-            <li>
-              <img src="images/scada.jpg" alt>
-            </li>
-          </ul>
+          <img src="images/brand2.png" class="ideas-branding" alt"" width="1186.25">
         </div>
       </div>
     </section>
-    <section class="wireframing intro-black">
+    <section class="wireframing alt--white">
       <div class="wireframe-body">
         <header class="section-subheaders">
-          <i class="prototype"></i>
+          <img src="icons/web-design-1.png"class="wireframing" height="70"width="70">
           <h4 class="section-subtitle">Wireframes</h4>
           <div class="section-body">
             <p>
@@ -473,11 +503,11 @@
         </header>
       </div>
     </section>
-    <section class="prototypes">
+    <section class="prototypes intro-black">
       <div class="prototypes-body">
         <div class="prototype-content">
           <div class="protoype-image">
-            <img src="images/wireframes.jpg" alt>
+            <img src="images/wireframes.png" alt="" width="1336" height="775.83">
           </div>
         </div>
       </div>
@@ -485,21 +515,23 @@
     <section class="interactive-visual-design section-grey">
       <div class="shell">
         <header class="section-headers">
-          <i class="pencils"></i>
+          <img src="icons/graphic-tool.png" class="pencils" alt="" height="70" width="70">
           <h3 class="section-title">Interative and Visual Design</h3>
-          <i class="computer-screen"></i>
+          <div class="hi-fi">
+          <img src="icons/web.png" class="computer-screen" alt="" height="70" width="70">
           <h4 class="section-subtitle">Hi-Fidelity Mockups</h4>
+        </div>
         </header>
-        <div class="section-body">
+        <div class="header-body">
           <p>
           The high-fedlity mockups were ready to be created, deployed, and tested.
          </p>
        </div>
     <div class="hifi-images-section">
      <div class="side-images">
-       <img src="images/desktop-tile.jpg" alt>
+       <img src="images/desktoptile2.png" alt="" height="463" width="615">
      </div>
-     <div class="section-body">
+     <div class="dashboard-body">
        <h4 class="section-subtitle">Icon Dashboard</h4>
        <p>
          The Raindrops dashboard gives the user options in how they would like
@@ -510,9 +542,9 @@
     </div>
     <div class="hifi-images-section">
       <div class="side-images">
-       <img src="images/desktop5.jpg" alt>
+       <img src="images/desktop52.png" alt="" height="463" width="615">
      </div>
-     <div class="section-body">
+     <div class="dashboard-body">
        <h4 class="section-subtitle">List Dashboard</h4>
        <p>
          The list dashboard is a for users who prefer the description of their
@@ -524,9 +556,9 @@
    </div>
    <div class="hifi-images-section">
      <div class="side-images">
-       <img src="images/macbook.jpg" alt>
+       <img src="images/macbook2.png" alt="" height="463" width="615">
      </div>
-     <div class="section-body">
+     <div class="dashboard-body">
        <h4 class="section-subtitle">Sign in page</h4>
        <p>
        The sign in page is a simple straight forward form that asks for First
@@ -537,48 +569,32 @@
    </div>
  </div>
 </section>
-<section class="usability-testing">
+<section class="usability-testing section-grey">
    <div class="usability-content">
-     <div class="shell">
+     <div class="usability-shell">
        <header class="section-subheaders">
-         <i class="people"></i>
+         <img src="icons/presentation.png" class="people" alt="" height="70" width="70">
          <h4 class="section-subtitle">Usability & Preference Testing</h4>
        </header>
-       <div class="inner-shell">
-         <div class="usability-content">
-           <p>
-             As I reached out to users via zoom video and in person testing,
-             I explained what the goal of this test was and for them to do
-             their best in walking  me through their thoughts, next moves,
-             and how each option/element  made them feel over-all.
-           </p>
-         </div>
+       <div class="inner-usability-shell">
          <div class="inner-shell-images">
-           <img src="images/a-tile.jpg" alt>
-           <img src="images/b-tile.jpg" alt>
-           <p>
-             80% preferred the option B refinement saying it was well laid out
-             and added more depth to the application. Users appreciated the
-             drag and drop water mark that was centered in the screen notifying
-             them it was an option.
-           </p>
+           <img src="images/preferencetest.png" class="preference" height="623" width="994">
          </div>
        </div>
      </div>
    </div>
  </section>
- <section class="section-black conclusion">
+ <section class="conclusion2 intro-black">
    <div class="conclusion-content">
-     <header class="section-subheaders">
-       <a href="" class="">View Prototype</a>
-       <br>
-       <i class="road"></i>
+     <header class="conclusion-header">
+       <div class="conclusion-btn">
+       <a href="" class="btn prototypebtn btn-blue">View Prototype</a>
+      </div>
+       <img src="icons/route.png" class="road" alt="" height="70" width="70">
        <h4 class="section-subtitle">Conclusion</h4>
+       <p> What I'd do differently...</p>
      </header>
-     <div class="section-sentence">
-       <p>What I’d do differently..</p>
-     </div>
-     <div class="section-body">
+     <div class="conclusion-end">
        <p>
        ALOT. Gathering the pivotal pieces for the solution and keeping tabs on
        every important detail of the project was a challenge. I wish I could go
@@ -587,10 +603,8 @@
        brand and tangibles for the style guide.
       </p>
     </div>
-    <div class="section-sentence">
-      <p>What I learned..</p>
-    </div>
-    <div class="section-body">
+    <p class="rrrrr"> What I learned...</p>
+    <div class="conclusion-end">
       <p>
         This was my first UX project that I captained along with my mentor. I
         learned so many things around the process and the methods used in
@@ -602,52 +616,59 @@
       </p>
     </div>
   </div>
-</section>
-
 <!-- Footer -->
-<footer class="contact section">
-  <div class="container">
-    <div class="content">
-    <h2 class="contact title">Let’s Connect!</h2>
-    <p class="contact content">
+<footer class="contact-section">
+  <div class="container-footer">
+    <div class="content-footer">
+    <div class="contact-title">
+     <hr>
+      <h6 class="connect">
+        Let’s Connect!
+      </h6>
+    </div>
+    <div class="contact-content">
+      <p>
       Whether it’s to simply chat over coffee
+      <br>
       or to create something awesome together.
     </p>
+  </div>
 <!-- social media icons -->
-  <div class="socialicons">
+  <div class="socialicons"><a id="contacts"></a>
     <ul>
       <li>
         <a href="https://www.linkedin.com/in/vincentarodriguez/">
-         <i style="color:white" class="fa">&#xf0e1;</i>
+         <i style="color:white" class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
         </a>
        </li>
       <li>
         <a href="https://www.instagram.com/var89/">
-        <i style="color:white" class="fa">&#xf16d;</i>
+        <i style="color:white" class="fa fa-instagram fa-2x" aria-hidden="true"></i>
         </a>
       </li>
       <li>
         <a href="mailto:vincerodriguez13@gmail.com">
-        <i style="color:white" class="fa">&#xf003;</i>
+        <i style="color:white" class="fa fa-envelope fa-2x" aria-hidden="true"></i>
         </a>
       </li>
       <li>
         <a href="https://github.com/vince6">
-        <i style="color:white" class="fa">&#xf09b;</i>
+        <i style="color:white" class="fa fa-github fa-2x" aria-hidden="true"></i>
         </a>
       </li>
     </ul>
   </div>
 <!-- Thank you message -->
-  <h3 class="ending">
-    Thank you for dropping in!
-  </h3>
+  <h6 class="ending">
+  Thank you for dropping in!
+ </h6>
 <!-- Copyright -->
     <p class="copyright"> © 2019 Desgined & Developed with ❤️
     by Vincent Rodriguez
    </p>
-   </div>
   </div>
+ </div>
+</section>
 </footer>
 </div>
 </body>

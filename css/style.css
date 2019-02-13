@@ -2,10 +2,17 @@
   box-sizing: border-box;
 }
 
+/*** Basic Elements ***/
+
 .wrapper{
   min-height: 100vh;
   position: relative;
   overflow: hidden;
+}
+
+.section-grey {
+  background-color: #F5F4F4;
+  color: #000000;
 }
 
 body{
@@ -58,19 +65,29 @@ h1 {
   line-height: normal;
 }
 
-h2 {
+.intro-inner h2 {
+  font-family:'Open Sans', sans-serif;
+  font-size: 40px;
   text-align: center;
+  line-height: normal;
+  padding-top: 30px;
 }
 
+.intro-inner p {
+  font-size: 20px;
+  text-align: center;
+  line-height: normal;
+  padding-top: 25px;
+}
 
 .greeting {
   font-weight: normal;
 }
-.welcome {
+.welcome h2 {
   font-family:'Open Sans', sans-serif;
   font-size: 18px;
   text-align: center;
-  margin-top: 25px;
+  padding-top: 30px;
   line-height: normal;
 }
 .ending, .contact-title {
@@ -105,6 +122,542 @@ font-size: 14px;
 .item:hover {
   color: #FFFFFF;
   text-decoration: underline;
+}
+
+/*** Casestudy elements ***/
+
+.section-text {
+  text-align: center;
+  position: relative;
+}
+.sections {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    line-height: normal;
+  }
+
+.section-text ul {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  list-style-type: none;
+  letter-spacing: -0.034em;
+  margin-bottom: 10px;
+}
+
+.section-titles{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  text-decoration: line-through;
+  letter-spacing: -0.03em;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  position: relative;
+  padding-top: 20px;
+}
+
+.section-headers {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  font-size:40px;
+  text-align: center;
+  position: relative;
+}
+
+.section-subheaders {
+  padding-top: 35px;
+  text-align: center;
+}
+
+
+.inner-section {
+  padding-top: 60px;
+}
+
+
+
+.summary-section {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin: auto;
+  padding-top: 40px;
+  display: block;
+  line-height: normal;
+  height: 400px;
+  width: 800px;
+}
+
+.summary-section p {
+  padding-top: 20px;
+}
+
+
+.problem-solution-challenge {
+  height: 1050px;
+}
+
+ .section-body p{
+  width: 500px;
+  text-align: center;
+  margin:0 auto;
+}
+
+.content-section {
+  font-family: "Open Sans", sans-serif;
+  font-size:16px;
+  display: block;
+  text-align: center;
+  line-height: normal;
+  margin: auto;
+}
+
+.content-section, .three-section, h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+}
+.section-subtitle  {
+  font-weight: bold;
+}
+
+.three-section {
+  margin-left: 18%;
+ line-height: normal;
+  width: 900px;
+}
+
+.three-section i {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.three-section p {
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+.challenge-section ul {
+  -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+
+    -webkit-column-gap: 60px;
+  -moz-column-gap: 60px;
+  column-gap: 60px;
+}
+
+.alt--white {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.research-discovery p {
+  padding-top: 20px;
+  line-height: normal;
+}
+
+.research-discovery {
+  height: 600px;
+}
+
+.discovery {
+padding-top: 70px;
+}
+.discovery h3 {
+  padding-top: 30px;
+}
+
+.magnify {
+  padding-top: 80px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin: auto;
+  display: block;
+  line-height: normal;
+}
+
+.survey-section-body {
+  height:745px;
+  width:1439px;
+}
+
+.survey-content p {
+  font-family: "Open Sans", sans-serif;
+  font-size:20px;
+  text-align: center;
+  line-height: normal;
+}
+
+.survey-content strong {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.survey-content ul {
+  padding-top: 223px;
+  margin: auto;
+  padding-left: 100px;
+  -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+}
+
+.survey-content li {
+  width:273px;
+  height:239px;
+  -webkit-column-gap: 62px;
+  -moz-column-gap: 62px;
+  column-gap: 62px;
+}
+
+.profile-personas header {
+  padding-top: 60px;
+}
+
+.profile-personas, .section-body p {
+  padding-top: 20px;
+  line-height: normal;
+
+}
+
+.profiles {
+  height:985px;
+  padding-top: 180px;
+  padding-bottom: 79px;
+  padding-right: 75px;
+  display:flex;
+  width: 100%;
+
+}
+
+.profile-avatar {
+  margin-bottom: 70px;
+    max-width: 150px;
+  margin: 0 auto 10px;
+}
+
+.profile {
+  position: relative;
+  padding: 0 50px;
+  color: #000;
+}
+
+.profile-heading {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 19px;
+  text-align: center;
+}
+
+.profile-position{
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  padding-top: 10px;
+  line-height:1.65;
+}
+
+.profile-name {
+  font-family: "Open Sans", sans-serif;
+  font-size:30px;
+  font-weight:200;
+  line-height: normal;
+}
+.profile-body h6 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -0.034em;
+  margin-bottom: 7px;
+  line-height: 1;
+  text-align: center;
+  margin-top: 28px;
+}
+
+.profile-body {
+  line-height:normal;
+  margin-bottom: 0;
+  text-align: left;
+  height:616px;
+  width:163;
+}
+
+.conclusion {
+  height:250px;
+  width: 1440px;
+}
+
+.conclusion p {
+  text-align: left;
+  width:916.24px;
+  height: 155px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: normal;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.competitive-analysis-content {
+  display: block;
+  height:956px;
+}
+
+.competitive-analysis-content h4 {
+  padding-top: 20px;
+}
+
+.side-images-section {
+  padding-left: 220px;
+  padding-top: 180px;
+  width: 250px;
+}
+
+.competitve-section {
+width: 500px;
+height: 500px;
+position: relative;
+bottom: 20px;
+margin: auto;
+top:-500px;
+left:18%;
+}
+
+.competitve-text {
+  font-family: "Open Sans", sans-serif;
+  line-height: normal;
+  font-size: 20px;
+}
+
+.section-sentence {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.information {
+  height: 1685px;
+}
+
+.information-body header {
+  padding-top: 30px;
+  }
+
+.information-body p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin: auto;
+  display: block;
+  line-height: normal;
+  padding-top: 20px;
+}
+
+.book {
+padding-top: 100px;
+margin: auto;
+}
+
+.book h4 {
+  padding-top: 15px;
+}
+
+.flows {
+  margin: 0 auto;
+  padding-left: 300px;
+  padding-top: 200px;
+}
+
+.branding-body {
+  height: 1440px;
+}
+
+.branding-body p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin: auto;
+  display: block;
+  line-height: normal;
+  padding-top: 20px;
+  height: 200px;
+  width: 800px;
+}
+
+.branding-body h3 {
+  padding-top: 15px;
+}
+
+.branding-body header {
+  padding-top: 50px;
+}
+
+.section-content{
+   padding-top: 100px;
+  margin-left: 125px;
+}
+
+.wireframe-body p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin: auto;
+  display: block;
+  line-height: normal;
+  height: 200px;
+  width: 800px;
+}
+
+.wireframe-body h4 {
+  padding-top: 15px;
+}
+
+.prototypes {
+  width: 1440px;
+  height: 1009px;
+}
+.protoype-image {
+  padding-top: 150px;
+ margin-left: 50px;
+}
+
+.interactive-visual-design {
+  height: 2450px;
+}
+
+.header-body p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin: auto;
+  text-align: center;
+  display: block;
+  line-height: normal;
+  padding-top: 25px;
+  width: 800px;
+  height: 200px;
+}
+
+.interactive-visual-design header {
+  padding-top: 50px;
+}
+
+.hi-fi {
+  padding-top: 80px;
+}
+
+.side-images {
+  margin-left: 50px;
+}
+
+.dashboard-body {
+  width: 500px;
+  position: relative;
+  bottom: 20px;
+  left:58%;
+  top:-450px;
+}
+
+.dashboard-body h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.dashboard-body p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: normal;
+  padding-top: 25px;
+}
+
+.usability-testing {
+  height: 1048px;
+}
+
+.inner-shell-images {
+  margin-left: 235px;
+  padding-top: 80px;
+}
+
+.inner-usability-shell {
+  height: 560px;
+}
+
+.usability-shell header {
+  padding-top: 100px;
+}
+
+.usability-shell h4 {
+  padding-top:20px;
+}
+
+.conclusion-content header {
+  text-align: center;
+  padding-top:20px;
+}
+
+.conclusion-btn{
+  padding-bottom:30px;
+}
+
+.conclusion-content h4 {
+  padding-top: 20px;
+}
+
+.conclusion2 {
+  height:1570px;
+}
+
+.conclusion-header p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  padding-top: 70px;
+}
+
+.conclusion-end p {
+  width: 600px;
+  padding-top: 60px;
+  font-size: 20px;
+  font font-family:'Open Sans', sans-serif;
+  line-height: normal;
+}
+
+
+.conclusion-end p {
+  width: 500px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: normal;
+  margin:0 auto;
+
+}
+
+.conclusion-content,.rrrrr  {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  padding-top: 60px;
+}
+
+.colums, .case {
+  padding-top: 80px;
+}
+
+
+.mid-section p {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline;
+  padding-bottom: 5px;
+}
+
+.first-section {
+  padding-right: 50px;
+}
+
+.third-section {
+  padding-left: 50px;
 }
 
 /*** About Me ***/
@@ -155,7 +708,6 @@ position: absolute;
   text-align: left;
   line-height: normal;
 }
-
 
 
 /*** Hero Image ***/
@@ -219,7 +771,29 @@ opacity:0;
   margin-right: auto;
 }
 
-/*** RainDrops Project ***/
+/*** RainDrops Project Intro ***/
+
+.biglaptop {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top:80px;
+}
+
+.intro-inner a {
+  position: absolute;
+    left: 43%;
+}
+
+.raindropheadline {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top:20px;
+  margin-top:0;
+}
 
 .projectsraindrop {
   height:60vh;
@@ -277,7 +851,13 @@ opacity:0;
     -webkit-appearance: none;
 }
 
+.intro-black {
+  background-color: #1D1B1B;
+}
 
+.navbar2 {
+  background-color: #1D1B1B;
+}
 
 /*** Process Center ***/
 
