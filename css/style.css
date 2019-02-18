@@ -34,7 +34,7 @@ body#page1{
 
 .section-navbar li {
   display: inline;
-  margin-right: 50px;
+  margin-right: 40px;
 }
 .section-navbar ul {
   text-align: center;
@@ -54,6 +54,9 @@ body#page1{
   padding-top: 20px;
 }
 
+.navbar2 {
+  background-color: #1D1B1B;
+}
 
 /*** Typograpghy ***/
 
@@ -81,6 +84,7 @@ h1 {
 }
 
 .greeting {
+  text-align: center;
   font-weight: normal;
 }
 .welcome h2 {
@@ -298,8 +302,7 @@ padding-top: 70px;
 
 .survey-content ul {
   padding-top: 223px;
-  margin: auto;
-  padding-left: 100px;
+  padding-left: 60px;
   -webkit-column-count: 4;
     -moz-column-count: 4;
     column-count: 4;
@@ -308,9 +311,6 @@ padding-top: 70px;
 .survey-content li {
   width:273px;
   height:239px;
-  -webkit-column-gap: 62px;
-  -moz-column-gap: 62px;
-  column-gap: 62px;
 }
 
 .profile-personas header {
@@ -671,6 +671,7 @@ margin: auto;
 .aboutme-section {
   width:700px;
   font-weight: 100;
+  padding-top: 70px;
   padding-left: 95px;
   line-height: normal;
 }
@@ -711,6 +712,7 @@ position: absolute;
 
 
 /*** Hero Image ***/
+
 @-webkit-keyframes fadeIn {from {
   opacity:0;} to { opacity:1;} }
 @-moz-keyframes fadeIn { from {
@@ -795,7 +797,7 @@ opacity:0;
   margin-top:0;
 }
 
-.projectsraindrop {
+.projectraindrop {
   height:60vh;
   padding-bottom: 10%;
 }
@@ -820,7 +822,7 @@ opacity:0;
 .text-area {
   padding-left: 350px;
   margin-top: 80px;
-  line-height: 1.2em
+  line-height: 1.2em;
 }
 
 .case-study-image {
@@ -855,14 +857,10 @@ opacity:0;
   background-color: #1D1B1B;
 }
 
-.navbar2 {
-  background-color: #1D1B1B;
-}
-
 /*** Process Center ***/
 
 
-#process{
+#process {
   text-align: center;
   position: relative;
   padding-top: 12%;
@@ -871,7 +869,7 @@ opacity:0;
 
 .process-heading {
   position: absolute;
-  bottom: 75%;
+  bottom: 77%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -885,7 +883,7 @@ hr {
   margin-bottom: 3.5rem;
   border-width: 0;
   border-top: 1px solid #a3a6a3;
-  width: 900px;
+  width: 1200px;
   text-align: center;
 }
 
@@ -899,7 +897,6 @@ padding-bottom: 20px;
 }
 
 .container-footer {
-  border-bottom:
   position: relative;
   padding-left: 20px;
   padding-right: 20px;
@@ -944,4 +941,339 @@ padding-bottom: 20px;
   padding-top: 20px;
   font-size: 14px;
   text-align: center;
+}
+
+
+/*** Tablet Media Queries ***/
+
+/* Home Page */
+
+@media screen and (max-width:1370px){
+  .section-navbar ul  {
+    display:block;margin:0 auto;
+
+  }
+}
+
+@media screen and (max-width:1024px){
+  .section-navbar ul  {
+    display:block;margin:0 auto;
+
+  }
+}
+
+@media screen and (max-width:1024px) {
+   .logo, .charlogo {
+     padding-left: 20px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .section-pine {
+    background-color: #01796F;
+    width: 1024px;
+    height: 422px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .text-area {
+    position: absolute;
+    right:5%;
+    margin-top: 40px;
+    line-height: 1.2em;
+    }
+}
+
+@media screen and (max-width:1024px) {
+  .case-study-image {
+    margin-left:60px;
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  #process {
+    text-align: center;
+    position: relative;
+    padding-top: 30%;
+    padding-bottom: 3%;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .process-heading{
+    position: absolute;
+    bottom: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-width:1024px) {
+  hr {
+    margin-top: 3rem;
+    margin-bottom: 3.5rem;
+    border-width: 0;
+    border-top: 1px solid #a3a6a3;
+    width: 900px;
+    text-align: center;
+  }
+}
+
+/* About me */
+
+@media screen and (max-width:1024px){
+  .about-me {
+      min-height: 100vh;
+      display: flex;
+      width: 1024px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .aboutme-section h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .aboutme-section {
+    width:560px;
+    font-weight: 100;
+    padding-left: 50px;
+    padding-top: 70px;
+    line-height: normal;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .section-navbar ul  {
+    display: inline;
+    margin: 0 auto;
+    text-align: center;
+    margin-right: 50px;
+    padding-top: 70px;
+}
+}
+
+@media screen and (max-width:1024px) {
+  .about-me-pic img {
+    width:400px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+.about-me-pic {
+position: absolute;
+top:60%;
+left: 60%;
+}
+}
+
+@media screen and (max-width:1024px) {
+  .interest p {
+    padding-top: 5px;
+    width:400px;
+    font-size: 13px;
+    font-weight: 100;
+    text-align: left;
+    line-height: normal;
+  }
+}
+
+/* Case Study */
+
+@media screen and (max-width:1024px){
+  #page2 {
+      min-height: 100vh;
+      width: 1024px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .biglaptop {
+      display:block;margin:0 auto;
+      height:400px;
+      width:700px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .three-section {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .survey-section-body {
+    width: 1024px;
+    height: 575px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .survey-content ul {
+    padding-top: 223px;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .survey-content li {
+    width:173px;
+    height:239px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .survey-content p {
+    font-family: "Open Sans", sans-serif;
+    font-size:15px;
+    text-align: center;
+    line-height: normal;
+  }
+  }
+
+@media screen and (max-width:1024px) {
+  .survey-content strong {
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
+
+@media screen and (max-width:1024px) {
+  .profiles {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .conclusion {
+    width:1024px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .profile-body {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .conclusion p {
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .side-images-section {
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .competitve-section {
+    top:-370px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .flows {
+    padding-left: 60px;
+    width: 1024px;
+    height: 1000px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .branding-body {
+    height: 1200px;
+  }
+}
+
+@media screen and (max-width:1024px){
+  .section-content {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .ideas-branding {
+    width: 924px;
+    height: 600px;
+
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .prototypes {
+    height: 900px;
+    width: 1024px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .wireframe-image {
+    width: 924px;
+    height: 600px;
+  }
+}
+
+
+@media screen and (max-width:1024px) {
+  .side-images {
+    margin-left:20px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .dashboard-body {
+    width: 200px;
+    position: relative;
+    bottom: 20px;
+    left: 66%;
+    top: -300px;
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .dashboard-body h4 {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .dashboard-body p {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .inner-shell-images {
+    margin: 0 auto;
+    padding-top: 80px;
+  }
+  }
+
+@media screen and (max-width:1024px) {
+  .conclusion2 {
+  height:1540px;
+  }
+}
+
+/*** Mobile Media Queries ***/
+
+@media screen and (max-width:375px) {
+   .logo, .charlogo {
+     padding-left: 10px;
+  }
 }
