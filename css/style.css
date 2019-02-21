@@ -46,7 +46,7 @@ body#page1{
 
 .index-section-navbar li {
   display: inline;
-  margin-right: 30px;
+  width: 33%;
 }
 
 .index-section-navbar ul {
