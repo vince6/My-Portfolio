@@ -973,16 +973,16 @@ padding-bottom: 20px;
 
 /* Home Page */
 
-@media screen and (max-width:1370px){
-  .index-section-navbar ul {
-    display:block;margin:0 auto;
-  }
-}
 
-@media screen and (max-width:1024px){
+
+@media screen and (max-width:1024px) {
   .index-section-navbar ul  {
-    display:block;margin:0 auto;
-  }
+    display: inline;
+    margin: 0 auto;
+    text-align: center;
+    margin-right: 50px;
+    padding-top: 70px;
+}
 }
 
 @media screen and (max-width:1370px){
