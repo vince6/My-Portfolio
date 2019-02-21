@@ -51,6 +51,7 @@ body#page1{
 }
 
 .index-section-navbar ul {
+  text-align: center;
   width: 100%;
   position: absolute;
   top: 0;
