@@ -43,6 +43,19 @@ body#page1{
   top: 0;
   padding-top:5%;
 }
+.index-section-navbar li {
+  text-align: center;
+  display: inline;
+  margin-right: 40px;
+}
+
+.index-section-navbar ul {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  padding-top:5%;
+}
+
 
 .logo {
   padding-left:60px;
