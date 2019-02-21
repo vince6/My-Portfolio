@@ -44,6 +44,20 @@ body#page1{
   padding-top: 5%
 }
 
+.index-section-navbar li {
+  display: inline;
+  margin-right: 50px;
+}
+
+.index-section-navbar ul {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  padding-top: 5%
+}
+
+
 .logo {
   padding-left:60px;
   padding-top: 20px;
