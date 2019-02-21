@@ -45,12 +45,12 @@ body#page1{
 }
 
 .index-section-navbar li {
+  text-align: center;
   display: inline;
-  margin-right: 70px;
+  margin-right: 40px;
 }
 
 .index-section-navbar ul {
-  text-align: center;
   width: 100%;
   position: absolute;
   top: 0;
