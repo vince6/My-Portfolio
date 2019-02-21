@@ -34,7 +34,7 @@ body#page1{
 
 .section-navbar li {
   display: inline;
-  margin-right: 40px;
+  margin-right:40px;
 }
 .section-navbar ul {
   text-align: center;
@@ -47,7 +47,7 @@ body#page1{
 .index-section-navbar li {
   display: inline;
   width: 33%;
-  margin-left: 40px;
+  margin-left:40px;
 }
 
 .index-section-navbar ul {
