@@ -979,10 +979,10 @@ padding-bottom: 20px;
   }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1024px){
   .index-section-navbar ul  {
     display:block;margin:0 auto;
-
+  }
 }
 
 @media screen and (max-width:1370px){
