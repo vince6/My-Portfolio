@@ -45,9 +45,8 @@ body#page1{
 }
 
 .index-section-navbar li {
-  text-align: center;
   display: inline;
-  margin-right: 40px;
+  margin-right: 30px;
 }
 
 .index-section-navbar ul {
