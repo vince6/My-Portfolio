@@ -1354,7 +1354,7 @@ left: 60%;
 }
 
 @media screen and (max-width:375px) {
-.myprocess {
-  height:980px;
+#process {
+  padding-top: 10%;
 }
 }
