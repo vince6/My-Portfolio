@@ -1355,7 +1355,6 @@ left: 60%;
 
 @media screen and (max-width:375px) {
 .projectraindrop {
-  padding-bottom: 0;
   height: 422px;
 }
 }
