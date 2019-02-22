@@ -1354,14 +1354,8 @@ left: 60%;
 }
 
 @media screen and (max-width:375px) {
-.projectraindrop{
+.projectraindrop {
   padding-bottom: 0;
   height: 422px;
 }
-}
-
-@media screen and (max-width:375px) {
-  .myprocess {
-    height:980px;
-  }
 }
