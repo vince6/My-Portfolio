@@ -1339,7 +1339,7 @@ left: 60%;
 }
 
 @media screen and (max-width:375px) {
-   .logo, .charlogo {
+   .logo, .charlogo img {
      padding-left: 10px;
      height:40px;
      width: 40px;
