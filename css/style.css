@@ -1015,6 +1015,7 @@ padding-bottom: 20px;
 @media screen and (max-width:1024px) {
 .projectraindrop{
   padding-bottom: 0;
+  height: 620px;
 }
 }
 @media screen and (max-width:1024px) {
@@ -1332,4 +1333,11 @@ left: 60%;
     height: 1000px;
     min-height: 1000px;
   }
+}
+
+@media screen and (max-width:375px) {
+.projectraindrop{
+  padding-bottom: 0;
+  height: 620px;
+}
 }
