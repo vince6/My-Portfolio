@@ -1362,7 +1362,7 @@ left: 60%;
 }
 
 @media screen and (max-width:375px) {
-  .myprocess, .container {
+  .myprocess {
     height:980px;
   }
 }
