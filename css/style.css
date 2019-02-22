@@ -1322,7 +1322,7 @@ left: 60%;
 
 /*** Mobile Media Queries ***/
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:400px) {
   .index-section-navbar ul  {
     display: inline;
     margin: 0 auto;
@@ -1332,13 +1332,13 @@ left: 60%;
 }
 }
 
-@media screen and (max-width:375px){
+@media screen and (max-width:400px){
   .section-navbar ul  {
     display:block;margin:0 auto;
 }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:400px) {
    .logo, .charlogo img {
      padding-left: 10px;
      height:40px;
@@ -1347,14 +1347,14 @@ left: 60%;
   }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:400px) {
   .wrapper {
     height: 1000px;
     min-height: 1000px;
   }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:400px) {
   .intro-inner p {
     font-size: 15px;
   }
