@@ -1354,15 +1354,7 @@ left: 60%;
 }
 
 @media screen and (max-width:375px) {
-  .section-pine {
-    background-color: #01796F;
-    width: 375px;
-    height: 422px;
-  }
-}
-
-@media screen and (max-width:375px) {
-.projectraindrop {
-  height: 422px;
+.myprocess {
+  height:980px;
 }
 }
