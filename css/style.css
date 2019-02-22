@@ -1353,3 +1353,9 @@ left: 60%;
     min-height: 1000px;
   }
 }
+
+@media screen and (max-width:375px) {
+  .intro-inner p {
+    font-size: 15px;
+  }
+}
