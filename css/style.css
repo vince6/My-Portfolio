@@ -1323,8 +1323,25 @@ left: 60%;
 /*** Mobile Media Queries ***/
 
 @media screen and (max-width:375px) {
+  .index-section-navbar ul  {
+    display: inline;
+    margin: 0 auto;
+    text-align: center;
+    margin-right: 50px;
+    padding-top: 70px;
+}
+}
+
+@media screen and (max-width:375px){
+  .section-navbar ul  {
+    display:block;margin:0 auto;
+}
+}
+
+@media screen and (max-width:375px) {
    .logo, .charlogo {
      padding-left: 10px;
+
   }
 }
 
