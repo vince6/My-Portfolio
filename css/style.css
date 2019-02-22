@@ -1307,17 +1307,17 @@ left: 60%;
   }
 }
 
+@media screen and (max-width:1024px) {
+  .wrapper {
+    height: 1200px;
+    min-height: 1200px;
+  }
+}
+
 /*** Mobile Media Queries ***/
 
 @media screen and (max-width:375px) {
    .logo, .charlogo {
      padding-left: 10px;
-  }
-}
-
-@media screen and (max-width:375px) {
-  .wrapper {
-    height: 1200px;
-    min-height: 1200px;
   }
 }
