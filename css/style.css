@@ -1318,5 +1318,6 @@ left: 60%;
 @media screen and (max-width:375px) {
   .wrapper {
     height: 1200px;
+    min-height: 1200px;
   }
 }
