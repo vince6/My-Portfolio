@@ -1017,6 +1017,7 @@ padding-bottom: 20px;
   height: 620px;
 }
 }
+
 @media screen and (max-width:1024px) {
   .text-area {
     position: absolute;
@@ -1354,7 +1355,8 @@ left: 60%;
 }
 
 @media screen and (max-width:375px) {
-#process {
-  padding-top: 10%;
-}
+.projectraindrop {
+  padding-bottom: 0;
+  height: 422px;
+ }
 }
