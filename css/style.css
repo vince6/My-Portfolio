@@ -1341,9 +1341,3 @@ left: 60%;
   height: 620px;
 }
 }
-
-@media screen and (max-width:375px) {
-  .welcome h2 {
-    font-size: 20px;
-  }
-}
