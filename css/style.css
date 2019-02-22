@@ -1315,7 +1315,6 @@ left: 60%;
   .wrapper {
     height: 1000px;
     min-height: 1000px;
-    min-height: 90vh
 
   }
 }
@@ -1332,6 +1331,5 @@ left: 60%;
   .wrapper {
     height: 1000px;
     min-height: 1000px;
-    min-height: 90vh;
   }
 }
