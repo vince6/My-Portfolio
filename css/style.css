@@ -1013,6 +1013,11 @@ padding-bottom: 20px;
 }
 
 @media screen and (max-width:1024px) {
+.projectraindrop{
+  padding-bottom: none;
+}
+}
+@media screen and (max-width:1024px) {
   .text-area {
     position: absolute;
     right:5%;
