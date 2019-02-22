@@ -1314,3 +1314,9 @@ left: 60%;
      padding-left: 10px;
   }
 }
+
+@media screen and (max-width:375px) {
+  .wrapper {
+    height: 1200px;
+  }
+}
