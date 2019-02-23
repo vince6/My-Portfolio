@@ -1409,9 +1409,6 @@ left: 60%;
 @media screen and (max-width:400px) {
   #process {
     text-align: center;
-    position: relative;
-    padding-top: 30%;
-    padding-bottom: 3%;
     height:260px;
     width: 400px;
   }
