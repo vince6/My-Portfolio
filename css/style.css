@@ -1357,10 +1357,21 @@ left: 60%;
 }
 
 @media screen and (max-width:400px) {
-  .box {
-    width:400px;
-    height: 500px;
-    margin: 0 auto;
+  .box{
+    display: block;
+    width: 400px;
+    height: 550px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    bottom:40px;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .laptop {
+    position: relative;
+    text-align: center;
   }
 }
 
@@ -1369,6 +1380,7 @@ left: 60%;
     font-size: 16px;
     text-align: center;
     padding-top: 50px;
+    margin: 0 auto;
     line-height: normal;
   }
 }
