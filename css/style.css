@@ -1407,7 +1407,7 @@ left: 60%;
 }
 
 @media screen and (max-width:400px) {
-  #process {
+  #process img {
     text-align: center;
     height:260px;
     width: 400px;
