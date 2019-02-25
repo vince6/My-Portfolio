@@ -1356,26 +1356,19 @@ left: 60%;
   }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:400px){
   .box{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    bottom:40px;
-  }
-}
-
-@media screen and (max-width:400px) {
-  .box img {
+  display: block;
   width: 400px;
-  height: 550px;
+  height: 594px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom:40px;
 }
-}
-
 
 @media screen and (max-width:400px) {
-  .laptop {
-    position: relative;
+  .laptop img{
     text-align: center;
   }
 }
