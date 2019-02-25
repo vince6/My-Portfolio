@@ -1357,7 +1357,7 @@ left: 60%;
 }
 
 @media screen and (max-width:400px) {
-  .box{
+  .box img{
     display: block;
     width: 400px;
     height: 550px;
