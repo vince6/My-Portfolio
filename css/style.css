@@ -1432,6 +1432,7 @@ left: 60%;
 
 @media screen and (max-width:400px){
   .copyright {
+  text-align: center;
   font-size: 12px;
   }
 }
