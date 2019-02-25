@@ -1357,16 +1357,21 @@ left: 60%;
 }
 
 @media screen and (max-width:400px) {
-  .box img{
+  .box{
     display: block;
-    width: 400px;
-    height: 550px;
-    position: relative;
     margin-left: auto;
     margin-right: auto;
     bottom:40px;
   }
 }
+
+@media screen and (max-width:400px) {
+  .box img {
+  width: 400px;
+  height: 550px;
+}
+}
+
 
 @media screen and (max-width:400px) {
   .laptop {
@@ -1427,6 +1432,6 @@ left: 60%;
 
 @media screen and (max-width:400px){
   .copyright p{
-  font-size: 10px;
+  font-size: 8px;
   }
 }
