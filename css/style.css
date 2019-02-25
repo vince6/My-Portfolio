@@ -1370,7 +1370,7 @@ left: 60%;
   .laptop img{
     text-align: center;
     width: 400px;
-    height: 494px;
+    height: 394px;
   }
 }
 
@@ -1432,6 +1432,6 @@ left: 60%;
 
 @media screen and (max-width:400px){
   .copyright {
-  font-size: 8px;
+  font-size: 12px;
   }
 }
