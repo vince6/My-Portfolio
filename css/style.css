@@ -1369,6 +1369,8 @@ left: 60%;
 @media screen and (max-width:400px) {
   .laptop img{
     text-align: center;
+    width: 400px;
+    height: 594px;
   }
 }
 
@@ -1406,7 +1408,7 @@ left: 60%;
 @media screen and (max-width:400px) {
   #process img {
     text-align: center;
-    height:460px;
+    height:260px;
     width: 360px;
   }
 }
