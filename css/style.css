@@ -1361,7 +1361,6 @@ left: 60%;
   display: block;
   width: 400px;
   height: 594px;
-  position: relative;
   margin-left: auto;
   margin-right: auto;
   bottom:40px;
@@ -1407,7 +1406,7 @@ left: 60%;
 @media screen and (max-width:400px) {
   #process img {
     text-align: center;
-    height:260px;
+    height:460px;
     width: 360px;
   }
 }
