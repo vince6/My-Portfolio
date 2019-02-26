@@ -1436,3 +1436,9 @@ left: 60%;
   font-size: 12px;
   }
 }
+
+@media screen and (max-width:400px) {
+  .case-study-image {
+    background-image: none;
+  }
+}
