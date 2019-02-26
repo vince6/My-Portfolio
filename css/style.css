@@ -1380,6 +1380,13 @@ left: 60%;
     text-align: center;
     padding-top: 50px;
     line-height: normal;
+    width: 350px;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .greeting h1 {
+    font-size: 30px;
   }
 }
 
