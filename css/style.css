@@ -1344,7 +1344,7 @@ left: 60%;
         height: 80px;
         width: 80px;
         padding-left: 10px;
-        display:block;margin:0 auto;
+        display:block;margin:0 50;
         text-align: center;
         padding-bottom: 20px;
    }
@@ -1384,7 +1384,6 @@ left: 60%;
     padding-top: 50px;
     line-height: normal;
     width: 380px;
-    padding-top: 20px;
   }
 }
 
@@ -1392,6 +1391,7 @@ left: 60%;
   .greeting h1 {
     font-size: 30px;
     padding-top: 40px;
+    padding-bottom: 20px;
   }
 }
 
