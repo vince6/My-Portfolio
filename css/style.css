@@ -1340,10 +1340,17 @@ left: 60%;
 
 
 @media screen and (max-width:400px) {
-   .logo .charlogo img {
+   .logo img {
      display: none;
   }
 }
+
+@media screen and (max-width:400px) {
+   .charlogo img {
+     display: none;
+  }
+}
+
 
 @media screen and (max-width:400px) {
   .wrapper {
