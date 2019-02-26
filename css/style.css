@@ -1401,14 +1401,14 @@ left: 60%;
   .section-pine {
     background-color: #01796F;
     width: 400px;
-    height: 422px;
+    height: 322px;
   }
 }
 
 @media screen and (max-width:400px){
   .projectraindrop{
     padding-bottom: 0;
-    height: 422px;
+    height: 322px;
   }
 }
 
@@ -1453,5 +1453,6 @@ left: 60%;
 @media screen and (max-width:400px) {
   .text-area {
     text-align: center;
+    padding-left: 50px;
   }
 }
