@@ -1341,13 +1341,17 @@ left: 60%;
 
 @media screen and (max-width:400px) {
    .logo img {
-     display: none;
+     height:20px;
+     width: 20px;
+     padding-left: 5px;
   }
 }
 
 @media screen and (max-width:400px) {
    .charlogo img {
-     display: none;
+     height:20px;
+     width: 20px;
+     padding-left: 5px;
   }
 }
 
