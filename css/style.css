@@ -1344,6 +1344,7 @@ left: 60%;
         height: 60px;
         width: 60px;
         padding-left: 10px;
+        display:block;margin:0 auto;
    }
 }
 
