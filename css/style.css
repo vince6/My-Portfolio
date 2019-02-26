@@ -1344,7 +1344,7 @@ left: 60%;
         height: 80px;
         width: 80px;
         padding-left: 10px;
-        display:block;margin:0 50;
+        display:block;margin:0 80;
         text-align: center;
         padding-bottom: 20px;
    }
@@ -1409,6 +1409,13 @@ left: 60%;
     height: 322px;
   }
 }
+
+@media screen and (max-width:400px) {
+  .section-case-study {
+    width: 400px;
+  }
+}
+
 
 @media screen and (max-width:400px){
   .projectraindrop{
