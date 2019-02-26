@@ -1335,7 +1335,6 @@ left: 60%;
 @media screen and (max-width:400px){
   .section-navbar ul  {
     display:block;margin:0 auto;
-    top:30px;
 }
 }
 
@@ -1347,6 +1346,7 @@ left: 60%;
         padding-left: 10px;
         display:block;margin:0 120px;
         text-align: center;
+        padding-bottom: 20px;
    }
 }
 
