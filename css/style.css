@@ -1449,3 +1449,9 @@ left: 60%;
     display: none;
   }
 }
+
+@media screen and (max-width:400px) {
+  .text-area {
+    text-align: center;
+  }
+}
