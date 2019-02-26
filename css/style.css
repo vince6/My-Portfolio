@@ -1341,10 +1341,7 @@ left: 60%;
 
 @media screen and (max-width:400px) {
    .logo .charlogo img {
-     padding-left: 10px;
-     height: 40px;
-     width: 40px;
-
+     display: none;
   }
 }
 
