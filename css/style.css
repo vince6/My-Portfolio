@@ -1344,7 +1344,7 @@ left: 60%;
         height: 80px;
         width: 80px;
         padding-left: 10px;
-        display:block;margin:0 200px;
+        display:block;margin:0 150px;
         text-align: center;
         padding-bottom: 20px;
    }
@@ -1466,6 +1466,6 @@ left: 60%;
   .text-area {
     text-align: center;
     padding-left: 50px;
-    top: 200%;
+    top: 220%;
   }
 }
