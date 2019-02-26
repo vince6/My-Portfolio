@@ -1425,6 +1425,12 @@ left: 60%;
 }
 
 @media screen and (max-width:400px) {
+  .process-heading {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width:400px) {
   #process img {
     text-align: center;
     height:260px;
