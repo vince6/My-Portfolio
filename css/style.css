@@ -1375,7 +1375,7 @@ left: 60%;
 }
 
 @media screen and (max-width:400px) {
-  .welcome-text h2 {
+  .welcome-text {
     font-size: 15px;
     text-align: center;
     padding-top: 50px;
