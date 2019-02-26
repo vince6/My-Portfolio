@@ -1439,6 +1439,6 @@ left: 60%;
 
 @media screen and (max-width:400px) {
   .case-study-image {
-    background-image: none;
+    display: none;
   }
 }
