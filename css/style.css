@@ -1310,7 +1310,8 @@ left: 60%;
 .about-me-pic {
   position:relative;
   padding-top: 40px;
-      top:430%;
+  padding-left: 50px;
+      top:440%;
       left:10%;
 }
 .about-me-pic img {
