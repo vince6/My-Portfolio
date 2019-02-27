@@ -1206,7 +1206,7 @@ left: 60%;
   .section-navbar ul  {
     display:block;margin:0 auto;
 }
-   .logo, .charlogo img {
+   .logo img {
         display: none;
 }
 
@@ -1304,5 +1304,16 @@ left: 60%;
     bottom: 22%;
     left:49%
   }
+
+/** About me **/
+
+.about-me-pic {
+position: absolute;
+}
+
+
+
+
+
 
 }
