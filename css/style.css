@@ -1204,7 +1204,7 @@ left: 60%;
     padding-top: 70px;
 }
   .section-navbar ul  {
-    display:block;margin:0 40;
+    display:block;margin:0 80;
 }
    .logo img {
         height: 80px;
@@ -1305,7 +1305,7 @@ left: 60%;
   .fa-arrow {
     position:absolute;
     text-align: center;
-    bottom: 50%;
+    bottom: 80%;
     left:50%
   }
 
