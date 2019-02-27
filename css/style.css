@@ -1309,6 +1309,7 @@ left: 60%;
 
 .about-me-pic {
   position:relative;
+  padding-top: 40px;
       top:430%;
       left:10%;
 }
