@@ -1202,13 +1202,13 @@ left: 60%;
     text-align: center;
     margin-right: 50px;
     padding-top: 70px;
-    padding-bottom: 70px;
 }
   .section-navbar ul  {
     display:block;margin:0 auto;
 }
    .logo img {
         display: none;
+
 
    }
   .wrapper {
@@ -1242,6 +1242,7 @@ left: 60%;
   .greeting h1 {
     font-size: 30px;
     padding-bottom: 20px;
+    bottom: 20%;
   }
   .welcome-text span {
     font-size: 20px;
