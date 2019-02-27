@@ -1205,6 +1205,7 @@ left: 60%;
 }
   .section-navbar ul  {
     display:block;margin:0 auto;
+    padding-left: 20px;
 }
    .logo img {
         display: none;
@@ -1352,5 +1353,12 @@ left: 60%;
   text-align: left;
   line-height: normal;
 }
+
+
+
+
+
+
+
 
 }
