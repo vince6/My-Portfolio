@@ -1308,11 +1308,14 @@ left: 60%;
 /** About me **/
 
 .about-me-pic {
-  position:fixed;
+  position:absolute;
       bottom:0px;
-      left:50%;
+      left:0;
 }
 
+.charlogo img {
+  display: none;
+}
 
 
 
