@@ -1309,7 +1309,7 @@ left: 60%;
 
 .about-me-pic {
   position:absolute;
-      bottom:80%;
+      top:80%;
       left:20%;
 }
 .about-me-pic img {
