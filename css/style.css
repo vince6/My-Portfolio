@@ -1308,7 +1308,9 @@ left: 60%;
 /** About me **/
 
 .about-me-pic {
-position: absolute;
+  position:fixed;
+      bottom:0px;
+      left:50%;
 }
 
 
