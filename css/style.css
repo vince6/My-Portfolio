@@ -1205,6 +1205,7 @@ left: 60%;
 }
   .section-navbar ul  {
     display:block;margin:0 auto;
+    padding-top: 20px;
 }
    .logo img {
         height: 80px;
