@@ -1206,11 +1206,10 @@ left: 60%;
   .section-navbar ul  {
     display:block;margin:0 auto;
 }
-   .logo img {
+   .logo, .charlogo img {
         display: none;
+}
 
-
-   }
   .wrapper {
     height: 700px;
     min-height: 700px;
