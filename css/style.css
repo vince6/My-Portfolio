@@ -1309,8 +1309,8 @@ left: 60%;
 
 .about-me-pic {
   position:absolute;
-      bottom:0px;
-      left:0;
+      bottom:200px;
+      left:50%;
 }
 
 .charlogo img {
