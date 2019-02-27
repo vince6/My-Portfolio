@@ -1309,7 +1309,7 @@ left: 60%;
 
 .about-me-pic {
   position:relative;
-      top:420%;
+      top:410%;
       left:10%;
 }
 .about-me-pic img {
@@ -1340,6 +1340,15 @@ left: 60%;
 
 .aboume-section p {
   font-size: 15px;
+}
+
+.interest p {
+  padding-top: 5px;
+  width:300px;
+  font-size: 13px;
+  font-weight: 100;
+  text-align: left;
+  line-height: normal;
 }
 
 }
