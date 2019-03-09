@@ -1392,6 +1392,8 @@ left: 60%;
 }
 
 .btn {
+  vertical-align: middle;
+  text-align: center;
   bottom:20%;
 }
 
