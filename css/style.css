@@ -1396,7 +1396,10 @@ left: 60%;
  bottom:10%;
 }
 
-
+.survey-section-body img {
+  width:400px;
+  height: 375px;
+}
 
 
 }
