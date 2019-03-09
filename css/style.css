@@ -1373,10 +1373,10 @@ left: 60%;
 }
 
 .intro-inner p {
-  width:306.2px;
+  width:326.2px;
   height:63.79px;
   font-size:15px;
-  text-align: left;
+  text-align: center;
   margin: 0 auto;
 }
 
@@ -1387,7 +1387,7 @@ left: 60%;
 .biglaptop {
   height:202px;
   width:315px;
-  top:10px;
+  top:5px;
 }
 
 .btn {
