@@ -1360,12 +1360,16 @@ left: 60%;
 }
 
 .raindropheadline {
-  height:100px;
-  width: 80px;
+  height:39.77px;
+  width:138.75px;
 }
 
 .intro-inner h2 {
-  font-size: 30px;
+  font-size: 25px;
+}
+
+.intro-inner p {
+  font-size:15px;
 }
 
 .intro-inner {
@@ -1373,8 +1377,8 @@ left: 60%;
 }
 
 .biglaptop {
-  height:300px;
-  width: 400px;
+  height:202px;
+  width:315px;
 }
 
 
