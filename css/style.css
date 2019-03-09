@@ -1355,23 +1355,28 @@ left: 60%;
   line-height: normal;
 }
 
+#page2 {
+  width: 400px;
+}
+
 .raindropheadline {
   height:100px;
-  width: 100px;
+  width: 80px;
 }
 
 .intro-inner h2 {
   font-size: 30px;
 }
 
+.intro-inner {
+  text-align: center;
+}
+
 .biglaptop {
-  height:400px;
+  height:300px;
   width: 400px;
 }
 
-.intro-content {
-  margin:0 auto;
-}
 
 
 
