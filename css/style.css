@@ -1356,16 +1356,22 @@ left: 60%;
 }
 
 .raindropheadline {
-  height:80px;
-  width: 80px;
+  height:100px;
+  width: 100px;
 }
 
 .intro-inner h2 {
-  
+  font-size: 30px;
 }
 
+.biglaptop {
+  height:400px;
+  width: 400px;
+}
 
-
+.intro-content {
+  text-align: center; 
+}
 
 
 
