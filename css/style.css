@@ -1369,8 +1369,8 @@ left: 60%;
 }
 
 .intro-inner p {
-  font-size:15px;
-  text-align: left
+  font-size:14px;
+  text-align: center
 }
 
 .intro-inner {
@@ -1383,7 +1383,6 @@ left: 60%;
 }
 
 .btn {
-  text-align: center;
   width: 191.51px;
   height: 45.29px;
 }
