@@ -1392,21 +1392,8 @@ left: 60%;
 }
 
 .btn {
-  vertical-align: middle;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    color: #fff;
-    display: inline-block;
-    text-transform: uppercase;
-    border-radius: 3px;
-    padding: 15px 40px;
-    margin-top: 20px;
-    -webkit-appearance: none;
-    bottom:20%;
+ bottom:20%;
+ padding-right: 200px;
 }
 
 
