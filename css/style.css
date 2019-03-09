@@ -1382,7 +1382,7 @@ left: 60%;
 
 .intro-inner {
   text-align: center;
-  top:20%;
+  bottom:30%;
 }
 
 .biglaptop {
@@ -1400,6 +1400,7 @@ left: 60%;
   width:400px;
   height: 375px;
 }
+
 
 
 }
