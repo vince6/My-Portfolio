@@ -1377,7 +1377,8 @@ left: 60%;
   height:63.79px;
   font-size:15px;
   text-align:center;
-  bottom:50%;
+  margin: 0 auto;
+  bottom:80%;
 }
 
 .intro-inner {
