@@ -1376,7 +1376,7 @@ left: 60%;
   width:326.2px;
   height:63.79px;
   font-size:15px;
-  text-align: center;
+  text-align:center;
   margin: 0 auto;
 }
 
@@ -1387,7 +1387,7 @@ left: 60%;
 .biglaptop {
   height:202px;
   width:315px;
-  top:5px;
+  top:20%;
 }
 
 .btn {
